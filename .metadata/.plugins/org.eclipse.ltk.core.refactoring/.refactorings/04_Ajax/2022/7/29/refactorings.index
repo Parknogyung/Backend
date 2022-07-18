@@ -1,0 +1,7 @@
+1657770169882	Extract local variable 'name'
+1657770184163	Extract local variable 'parameter'
+1657848312479	Extract local variable 'input'
+1657850994781	Extract local variable 'name'
+1657851004138	Extract local variable 'age'
+1657853216650	Extract local variable 'userNo'
+1657860961659	Extract local variable 'findList'

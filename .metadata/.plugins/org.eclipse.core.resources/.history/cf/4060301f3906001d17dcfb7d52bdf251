@@ -1,0 +1,14 @@
+package com.kh.mvc.member.model.service;
+
+import com.kh.mvc.member.model.vo.Member;
+
+public class MemberService {
+
+	public Member login(String userId, String userPwd) {
+		
+		
+		
+		return null;
+	}
+
+}

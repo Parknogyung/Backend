@@ -1,0 +1,11 @@
+package com.kh.el.model.vo;
+
+public class Student {
+	private String name;
+	
+	private String age;
+	
+	private int math;
+	
+	private int english;
+}

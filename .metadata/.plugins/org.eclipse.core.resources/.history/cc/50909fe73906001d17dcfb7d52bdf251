@@ -1,0 +1,12 @@
+package com.kh.mvc.member.model.vo;
+
+public class Member {
+	private int no;
+	
+	private String id;
+	
+	private String password;
+	
+	private String role;
+	
+}

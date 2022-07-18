@@ -1,3 +1,7 @@
 1658107077583	Extract local variable 'userId'
 1658107092827	Extract local variable 'userPwd'
 1658111893057	Extract local variable 'rs'
+1658114900724	Extract local variable 'session'
+1658119769962	Extract local variable 'session'
+1658120372542	Extract local variable 'saveId'
+1658120682907	Extract local variable 'cookie'

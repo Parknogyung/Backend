@@ -28,10 +28,20 @@ public class MemberDao {
 			rs = pstm.executeQuery();
 			
 			if(rs.next()) {
-				System.out.println(rs.getInt("NO"));
-				System.out.println(rs.getString("ID"));
-				System.out.println(rs.getString("NAME"));
-				System.out.println(rs.getString("ROLE"));
+				member = new Member();
+				
+				member.setNo(rs.getInt("NO"));
+				member.setId(rs.getString("ID"));
+				member.setPassword(rs.getString("PASSWORD"));
+				member.setRole(rs.getString("ROLE"));
+				member.setName(rs.getString("NAME"));
+				member.setPhone(rs.getString("PHONE"));
+				member.setEmail(rs.getString("EMAIL"));
+				member.setAddress(rs.getString("ADDRESS"));
+				member.setHobby(rs.getString("HOBBY"));
+				member.setStatus(rs.getString("STATUS"));
+				member.setEnrollDate(rs.getDate("ENROLL_DATE"));
+				member.setModifyDate(rs.getDate("MODIFY_DATE"));
 			}
 			
 		} catch (ClassNotFoundException e) {

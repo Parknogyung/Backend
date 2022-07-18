@@ -4839,3 +4839,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui.navigator 2 0 2022-07-18 09:06:06.704
 !MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.jst.server.core 4 0 2022-07-18 14:11:12.797
+!MESSAGE Could not launch in profiling mode because no profilers are configured.

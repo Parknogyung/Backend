@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="05_MVC2" path="/05_MVC2" reloadable="true" source="org.eclipse.jst.jee.server:05_MVC2"/><Context docBase="03_EL_JSTL" path="/03_EL_JSTL" reloadable="true" source="org.eclipse.jst.jee.server:03_EL_JSTL"/><Context docBase="ELJSTL_PRACTICE" path="/ELJSTL_PRACTICE" reloadable="true" source="org.eclipse.jst.jee.server:ELJSTL_PRACTICE"/><Context docBase="AJAX_PRACTICE" path="/AJAX_PRACTICE" reloadable="true" source="org.eclipse.jst.jee.server:AJAX_PRACTICE"/><Context docBase="04_Ajax" path="/04_Ajax" reloadable="true" source="org.eclipse.jst.jee.server:04_Ajax"/></Host>
+      <Context docBase="05_MVC2" path="/05_MVC2" reloadable="true" source="org.eclipse.jst.jee.server:05_MVC2"/><Context docBase="03_EL_JSTL" path="/03_EL_JSTL" reloadable="true" source="org.eclipse.jst.jee.server:03_EL_JSTL"/><Context docBase="ELJSTL_PRACTICE" path="/ELJSTL_PRACTICE" reloadable="true" source="org.eclipse.jst.jee.server:ELJSTL_PRACTICE"/><Context docBase="AJAX_PRACTICE" path="/AJAX_PRACTICE" reloadable="true" source="org.eclipse.jst.jee.server:AJAX_PRACTICE"/><Context docBase="04_Ajax" path="/04_Ajax" reloadable="true" source="org.eclipse.jst.jee.server:04_Ajax"/><Context docBase="MVC_PRACTICE" path="/MVC_PRACTICE" reloadable="true" source="org.eclipse.jst.jee.server:MVC_PRACTICE"/></Host>
     </Engine>
   </Service>
 </Server>

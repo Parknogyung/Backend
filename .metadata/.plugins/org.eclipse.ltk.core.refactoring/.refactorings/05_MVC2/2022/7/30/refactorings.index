@@ -5,3 +5,9 @@
 1658119769962	Extract local variable 'session'
 1658120372542	Extract local variable 'saveId'
 1658120682907	Extract local variable 'cookie'
+1658129841826	Copy file
+1658129854769	Copy folder
+1658131505772	Copy folder
+1658195371860	Extract local variable 'wrapper'
+1658205875748	Extract local variable 'userId'
+1658208971491	Extract local variable 'session'

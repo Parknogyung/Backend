@@ -1,5 +1,0 @@
-package com.kh.mvc.member.model.dao;
-
-public class MemberDao {
-
-}
